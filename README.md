@@ -48,6 +48,19 @@ Mỗi mẫu dữ liệu bao gồm:
 Thư mục dữ liệu được loại khỏi Git thông qua file `.gitignore`.
 
 ---
+## Cấu trúc dự án
+
+```text
+.
+├── .gitignore
+├── README.md
+├── dataset.py         # Xử lý và chuẩn bị dữ liệu
+├── load_data.py       # Đọc dữ liệu SAR và mask
+├── function.py        # Các hàm hỗ trợ, layer và phép toán
+├── train.py           # Huấn luyện mô hình
+├── evaluate.py        # Đánh giá mô hình
+└── predict.py         # Dự đoán và trực quan hóa kết quả
+```
 
 ## Kiến trúc mô hình
 
