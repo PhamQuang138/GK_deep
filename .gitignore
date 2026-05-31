@@ -1,0 +1,19 @@
+# Dataset
+dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Model weights
+*.pkl
+*.npy
+*.npz
+
+# IDE
+.vscode/
+.idea/
